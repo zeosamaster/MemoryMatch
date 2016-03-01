@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="Memory Game">
+	<meta name="author" content="Fabio Matias">
+	<title>Memory Game</title>
+	<link rel="stylesheet" href="css/memory-game.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<h1 class="title">Memory Game</h1>
+	</div>
+
+	<div class="body">
+
+		<div id="buttonGroup">
+			<button id="newGame">Novo Jogo</button>
+			<button id="startGame" style="display: none">Iniciar Jogo</button>
+		</div>
+
+		<div id="share" style="visibility:hidden">
+			<a target="_blank" id="shareLink">Partilhar no Twitter</a>
+		</div>
+
+		<div id="timerContainer" style="visibility:hidden">
+			<span>Tempo: </span><span id="timer"></span>
+		</div>
+
+		<div id="gameContainer"></div>
+	</div>
+
+	<div class="footer"></div>
+
+	<script src="js/memory-game.js"></script>
+
+</body>
+
+</html>

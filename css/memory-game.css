@@ -1,0 +1,34 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.body > * {
+	padding: 10px 0px;
+}
+
+button {
+	cursor: pointer;
+}
+
+#buttonGroup {
+	height: 21px;
+}
+
+#gameContainer {
+	margin: 20px auto;
+}
+
+.badge-container {
+	display: inline-block;
+}
+
+.badge,
+.fake-badge {
+	height: 95px;
+	width: 95px;
+	margin: 4px;
+}
+
+.fake-badge {
+	background-image: url('https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg');
+}
